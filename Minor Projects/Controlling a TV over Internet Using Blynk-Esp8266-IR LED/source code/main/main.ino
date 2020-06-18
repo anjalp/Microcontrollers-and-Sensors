@@ -40,6 +40,9 @@ String textIn = "Str";  // String send from the text widget  is stored in this v
 // Here the text entered by the user by the blynk app is stored by the textIn string which is analysed by the chk_input() function
 // it first checks the first digit : is a string or a number: if number then it goes to the switch a case to enter the number and if string then it
 // goes to the if statement to match the code to enter it. 
+
+// ENTER YOUR CODE HERE TO CONTROL YOUR IR DEVICE
+
 void chk_input(void) {
   // ASIANET CODES
   if (textIn=="aon" or textIn=="aof") {      // ON/OFF OF THE ASIANET SETUP BOX REMOTE.
