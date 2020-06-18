@@ -33,6 +33,10 @@ char pass[] = "yhgyhgyhg";
 
 String textIn = "Str";  // String send from the text widget  is stored in this vriable
 
+// Before coding the below make sure that the IR codes of the device is Known to you, if not
+// Find the IR codes for each key for the device usign the IRrecDumpV2 code in the folder 
+// All the circuit diagram is given in the folder 'diag'.
+
 // Here the text entered by the user by the blynk app is stored by the textIn string which is analysed by the chk_input() function
 // it first checks the first digit : is a string or a number: if number then it goes to the switch a case to enter the number and if string then it
 // goes to the if statement to match the code to enter it. 
