@@ -24,18 +24,18 @@ IRsend irsend(kIrLed);  // Set the GPIO to be used to sending the message.
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "PVDoL2qEdjVKui2iH75OqpbEz7Pd4Z24";
+char auth[] = "YOUR BLINK TOKEN";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "H7X";
-char pass[] = "yhgyhgyhg";
+char ssid[] = "YOUR SSID";
+char pass[] = "YOUR PASSWORD";
 
 String textIn = "Str";  // String send from the text widget  is stored in this vriable
 
 // Before coding the below make sure that the IR codes of the device is Known to you, if not
 // Find the IR codes for each key for the device usign the IRrecDumpV2 code in the folder 
-// All the circuit diagram is given in the folder 'diag'.
+// All the circuit diagram is given in the folder 'circuit'.
 
 // Here the text entered by the user by the blynk app is stored by the textIn string which is analysed by the chk_input() function
 // it first checks the first digit : is a string or a number: if number then it goes to the switch a case to enter the number and if string then it
